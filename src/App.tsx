@@ -8,10 +8,7 @@ import ProjectsSection from "./components/ProjectsSection";
 
 function App() {
   return (
-    <div className="p-3 pt-2 container mx-auto col-auto">
-      <button className="bg-accent px-4 py-2 text-primary hover:bg-sky-800 sm:px-8 sm:py-3">
-        Contact
-      </button>
+    <div className="flex min-h-screen flex-col gap-11 bg-gradient-to-br from-primary to-black p-5 text-white">
       {/* <NavBar/> */}
       <LandingSection />
       <ProjectsSection />
