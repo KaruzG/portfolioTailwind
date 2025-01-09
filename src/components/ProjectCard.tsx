@@ -1,4 +1,3 @@
-
 const ProjectCard = () => {
   return (
     <>
@@ -8,12 +7,12 @@ const ProjectCard = () => {
         <h3>Project Name</h3>
         <p></p>
         <div>
-            <button>Preview</button>
-            <button>Code</button>
+          <button>Preview</button>
+          <button>Code</button>
         </div>
       </div>
     </>
-  )
+  );
 };
 
 export default ProjectCard;
