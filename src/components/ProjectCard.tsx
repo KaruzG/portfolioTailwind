@@ -1,17 +1,26 @@
-const ProjectCard = () => {
+import { Project } from "../types/Project";
+
+const ProjectCard = ({ project }: { project: Project }) => {
   return (
-    <>
+    <div className="project-card">
+      <img src={project.img} alt={`${project.title} Image`} />
+      <h3>{project.title}</h3>
+      <p>{project.description}</p>
+      <ul>
+        {project.stack.map((item, index) => (
+          <li key={index} className="flex items-center">
+            <span className="mr-2" style={{ color: item.color }}>
+              {item.icon}
+            </span>
+            {item.tech}
+          </li>
+        ))}
+      </ul>
       <div>
-        <img src="" alt="Project Image" />
-        {/* projectStacks */}
-        <h3>Project Name</h3>
-        <p></p>
-        <div>
-          <button>Preview</button>
-          <button>Code</button>
-        </div>
+        <button onClick={() => window.open(project.previewLink, "_blank")}>Preview</button>
+        <button onClick={() => window.open(project.codeLink, "_blank")}>Code</button>
       </div>
-    </>
+    </div>
   );
 };
 
