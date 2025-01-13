@@ -9,6 +9,7 @@ export default {
         accent: "#00A933",
         accent600: "#004314",
         titleWhite: "#FFFFFF",
+        grayButton: "#505050",
       },
       fontFamily: {
         sans: ['Montserrat', 'sans-serif'],
