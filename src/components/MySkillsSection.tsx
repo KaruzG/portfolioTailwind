@@ -1,7 +1,14 @@
+import SectionTitle from "./SectionTitle";
+import { FaRegStar } from "react-icons/fa";
+
+
 const MySkillsSection = () => {
   return (
     <>
-      <h2>MY SKILLS</h2>
+      <SectionTitle>
+        <FaRegStar className="mr-3 my-auto" />
+        PROJECTS
+      </SectionTitle>
       <nav>
         <ul>
           <li>Front End</li>

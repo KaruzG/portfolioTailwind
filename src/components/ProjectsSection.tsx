@@ -1,11 +1,13 @@
 import { FaRegFolder } from "react-icons/fa";
 import ProjectCard from "./ProjectCard";
 import { Project } from "../types/Project";
+import SectionTitle from "./SectionTitle";
 
 const project1: Project = {
   img: "https://coffective.com/wp-content/uploads/2018/06/default-featured-image.png.jpg",
   title: "SKATESPOTSVLC",
-  description: "Web app with info about my city and an admin panel to upload new markers with photos and descriptions",
+  description:
+    "Web app with info about my city and an admin panel to upload new markers with photos and descriptions",
   stack: [
     { icon: "🔥", tech: "React", color: "red" },
     { icon: "🌐", tech: "TypeScript", color: "blue" },
@@ -29,10 +31,10 @@ const project2: Project = {
 const ProjectsSection = () => {
   return (
     <>
-      <h2 className="flex text-2xl font-bold">
-        <FaRegFolder className="mr-3" />
+      <SectionTitle>
+        <FaRegFolder className="mr-3 my-auto" />
         PROJECTS
-      </h2>
+      </SectionTitle>
       <ul className="flex flex-col gap-3">
         <ProjectCard project={project1} />
         <ProjectCard project={project2} />
