@@ -7,11 +7,11 @@ const MySkillsSection = () => {
     <>
       <SectionTitle>
         <FaRegStar className="mr-3 my-auto" />
-        PROJECTS
+        MY SKILLS
       </SectionTitle>
       <nav>
-        <ul>
-          <li>Front End</li>
+        <ul className="flex gap-3 justify-center text-grayButton font-bold">
+          <li className="text-accent">Front End</li>
           <li>Back End</li>
           <li>Other</li>
         </ul>
