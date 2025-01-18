@@ -10,6 +10,7 @@ export default {
         accent600: "#004314",
         titleWhite: "#FFFFFF",
         grayButton: "#505050",
+        navBarBg: "rgba(9, 9, 9, 0.83)",
       },
       fontFamily: {
         sans: ['Montserrat', 'sans-serif'],
