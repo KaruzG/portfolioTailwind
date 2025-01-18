@@ -31,6 +31,7 @@ const project2: Project = {
 const ProjectsSection = () => {
   return (
     <>
+    <section className="mb-16">
       <SectionTitle>
         <FaRegFolder className="mr-3 my-auto" />
         PROJECTS
@@ -39,6 +40,7 @@ const ProjectsSection = () => {
         <ProjectCard project={project1} />
         <ProjectCard project={project2} />
       </ul>
+    </section>
     </>
   );
 };

@@ -5,6 +5,7 @@ import { FaRegStar } from "react-icons/fa";
 const MySkillsSection = () => {
   return (
     <>
+    <section className="mb-5">
       <SectionTitle>
         <FaRegStar className="mr-3 my-auto" />
         MY SKILLS
@@ -17,6 +18,7 @@ const MySkillsSection = () => {
         </ul>
       </nav>
       <div>{}</div>
+    </section>
     </>
   );
 };
