@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-    html {
-        @apply bg-gradient-to-br from-primary to-black;
-    }
+html {
+  background-color: black;
 }
