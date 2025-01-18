@@ -4,7 +4,7 @@ import ContactButton from './ContactButton';
 const LandingSection = () => {
   return (
     <>
-      <section className="flex-col items-center px-6 mb-32 mt-14">
+      <section className="flex-col items-center px-6 mb-12 mt-14">
         <img className="m-auto pb-6 pt-20" src={profilePicture} alt="Profile Picture" />
         <h1 className="font-bold text-2xl tracking-wider">Hey, Im Miguel</h1>
         <p className="text-secondary">
