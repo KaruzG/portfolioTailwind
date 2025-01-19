@@ -37,7 +37,7 @@ const StudiesSection = () => {
             STUDIES
         </SectionTitle>
         <ul className="ml-4">
-            <Timeline timelineData={studyExperience} />
+            <Timeline timelineData={studyExperience} type="education"/>
         </ul>
         </>
     )

@@ -35,7 +35,7 @@ const ExperienceSection = () => {
         EXPERIENCE
       </SectionTitle>
       <ul className="border-l-2 ml-3 mt-5">
-        <Timeline timelineData={jobExperience} />
+        <Timeline timelineData={jobExperience} type="job"/>
       </ul>
     </section>
     </>
