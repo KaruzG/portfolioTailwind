@@ -10,7 +10,7 @@ const MySkillsSection = () => {
         <FaRegStar className="mr-3 my-auto" />
         MY SKILLS
       </SectionTitle>
-      <nav>
+      <nav className="mt-5">
         <ul className="flex gap-3 justify-center text-grayButton font-bold">
           <li className="text-accent">Front End</li>
           <li>Back End</li>

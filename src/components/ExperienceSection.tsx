@@ -34,7 +34,7 @@ const ExperienceSection = () => {
         <FiPaperclip className="my-auto mr-3" />
         EXPERIENCE
       </SectionTitle>
-      <ul className="border-l-2 ml-3">
+      <ul className="border-l-2 ml-3 mt-5">
         <Timeline timelineData={jobExperience} />
       </ul>
     </section>

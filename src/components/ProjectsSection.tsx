@@ -36,7 +36,7 @@ const ProjectsSection = () => {
         <FaRegFolder className="mr-3 my-auto" />
         PROJECTS
       </SectionTitle>
-      <ul className="flex flex-col gap-3">
+      <ul className="flex flex-col gap-3 mt-5">
         <ProjectCard project={project1} />
         <ProjectCard project={project2} />
       </ul>
