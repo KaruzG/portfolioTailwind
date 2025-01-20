@@ -1,17 +1,15 @@
 import SectionTitle from "./SectionTitle";
 import { FaRegStar } from "react-icons/fa";
 
-
 const MySkillsSection = () => {
   return (
-    <>
-    <section className="mb-5">
+    <section id="skills" className="mb-5">
       <SectionTitle>
-        <FaRegStar className="mr-3 my-auto" />
+        <FaRegStar className="my-auto mr-3" />
         MY SKILLS
       </SectionTitle>
       <nav className="mt-5">
-        <ul className="flex gap-3 justify-center text-grayButton font-bold">
+        <ul className="flex justify-center gap-3 font-bold text-grayButton">
           <li className="text-accent">Front End</li>
           <li>Back End</li>
           <li>Other</li>
@@ -19,7 +17,6 @@ const MySkillsSection = () => {
       </nav>
       <div>{}</div>
     </section>
-    </>
   );
 };
 

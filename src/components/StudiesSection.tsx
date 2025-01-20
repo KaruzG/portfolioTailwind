@@ -1,5 +1,5 @@
-import { TimelineData } from '../types/TimelineData';
-import SectionTitle from "./SectionTitle"
+import { TimelineData } from "../types/TimelineData";
+import SectionTitle from "./SectionTitle";
 import { IoMdBook } from "react-icons/io";
 import Timeline from "./Timeline";
 
@@ -9,11 +9,7 @@ const studyExperience: Array<TimelineData> = [
     location: null,
     duration: 2,
     durationType: "years",
-    descriptionList: [
-      "FullStack development",
-      "AWS Deployment",
-      "UIX design"
-    ],
+    descriptionList: ["FullStack development", "AWS Deployment", "UIX design"],
   },
   {
     company: "Micro-computing Systems and Networks",
@@ -24,23 +20,23 @@ const studyExperience: Array<TimelineData> = [
       "TCP IP Networks",
       "Windows/Linux administration",
       "Cybersecurity",
-      "Frontend basics"
+      "Frontend basics",
     ],
   },
 ];
 
 const StudiesSection = () => {
-    return (
-        <>
-        <SectionTitle>
-            <IoMdBook  className="mr-3 my-auto"/>
-            STUDIES
-        </SectionTitle>
-        <ul className="ml-4">
-            <Timeline timelineData={studyExperience} type="education"/>
-        </ul>
-        </>
-    )
-}
+  return (
+    <section id="studies">
+      <SectionTitle>
+        <IoMdBook className="my-auto mr-3" />
+        STUDIES
+      </SectionTitle>
+      <ul className="ml-4">
+        <Timeline timelineData={studyExperience} type="education" />
+      </ul>
+    </section>
+  );
+};
 
-export default StudiesSection
+export default StudiesSection;

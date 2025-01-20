@@ -30,18 +30,16 @@ const project2: Project = {
 
 const ProjectsSection = () => {
   return (
-    <>
-    <section className="mb-16">
+    <section id="projects" className="mb-16">
       <SectionTitle>
-        <FaRegFolder className="mr-3 my-auto" />
+        <FaRegFolder className="my-auto mr-3" />
         PROJECTS
       </SectionTitle>
-      <ul className="flex flex-col gap-3 mt-5">
+      <ul className="mt-5 flex flex-col gap-3">
         <ProjectCard project={project1} />
         <ProjectCard project={project2} />
       </ul>
     </section>
-    </>
   );
 };
 

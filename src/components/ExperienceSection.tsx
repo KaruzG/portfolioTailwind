@@ -28,17 +28,15 @@ const jobExperience: Array<TimelineData> = [
 
 const ExperienceSection = () => {
   return (
-    <>
-    <section className="mb-5">
-      <SectionTitle >
+    <section id="experience" className="mb-5">
+      <SectionTitle>
         <FiPaperclip className="my-auto mr-3" />
         EXPERIENCE
       </SectionTitle>
-      <ul className="border-l-2 ml-3 mt-5">
-        <Timeline timelineData={jobExperience} type="job"/>
+      <ul className="ml-3 mt-5 border-l-2">
+        <Timeline timelineData={jobExperience} type="job" />
       </ul>
     </section>
-    </>
   );
 };
 
