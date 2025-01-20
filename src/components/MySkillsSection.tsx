@@ -15,7 +15,25 @@ const MySkillsSection = () => {
           <li>Other</li>
         </ul>
       </nav>
-      <div>{}</div>
+      <div>
+        <h3>asd</h3>
+        <h3>asd</h3>
+        <h3>asd</h3>
+        <h3>asd</h3>
+        <h3>asd</h3>
+        <h3>asd</h3>
+        <h3>asd</h3>
+        <h3>asd</h3>
+        <h3>asd</h3>
+        <h3>asd</h3>
+        <h3>asd</h3>
+        <h3>asd</h3>
+        <h3>asd</h3>
+        <h3>asd</h3>
+        <h3>asd</h3>
+        <h3>asd</h3>
+        <h3>asd</h3>
+      </div>
     </section>
   );
 };
