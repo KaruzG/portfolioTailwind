@@ -19,7 +19,7 @@ const NavBar = () => {
       {
         threshold: 0.5,
         rootMargin: "0px 0px 0px -100px",
-      }
+      },
     );
 
     sections.forEach((section) => {
@@ -46,10 +46,11 @@ const NavBar = () => {
     }
   };
 
-  const liStyles = "flex cursor-pointer flex-col items-center transition-colors duration-500";
+  const liStyles =
+    "flex cursor-pointer flex-col items-center transition-colors duration-500";
 
   return (
-    <nav className="fixed bottom-5 z-50 flex justify-center gap-4 rounded-full bg-navBarBg p-4 backdrop-blur-sm">
+    <nav className="fixed max-w-fit bottom-5 left-0 right-0 z-50 mx-auto flex justify-center gap-4 rounded-full bg-navBarBg p-4 backdrop-blur-sm">
       <ul className="flex gap-4 text-xs text-secondary">
         <li
           className={`${liStyles} ${activeSection === "landing" ? "text-accent" : ""}`}
