@@ -1,5 +1,7 @@
 import SectionTitle from "./SectionTitle";
 import { FaRegStar } from "react-icons/fa";
+import SkillCard from "./SkillCard";
+import { skills } from "../data/skillsData";
 
 const MySkillsSection = () => {
   return (
@@ -16,23 +18,7 @@ const MySkillsSection = () => {
         </ul>
       </nav>
       <div>
-        <h3>asd</h3>
-        <h3>asd</h3>
-        <h3>asd</h3>
-        <h3>asd</h3>
-        <h3>asd</h3>
-        <h3>asd</h3>
-        <h3>asd</h3>
-        <h3>asd</h3>
-        <h3>asd</h3>
-        <h3>asd</h3>
-        <h3>asd</h3>
-        <h3>asd</h3>
-        <h3>asd</h3>
-        <h3>asd</h3>
-        <h3>asd</h3>
-        <h3>asd</h3>
-        <h3>asd</h3>
+        <SkillCard skill={skills[0]}/>
       </div>
     </section>
   );
