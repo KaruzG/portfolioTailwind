@@ -1,9 +1,15 @@
 import SectionTitle from "./SectionTitle";
 import { FaRegStar } from "react-icons/fa";
 import SkillCard from "./SkillCard";
-import { skills } from "../data/skillsData";
+import { skills, SkillType } from "../data/skillsData";
+import { useState } from "react";
 
 const MySkillsSection = () => {
+  const [activeSection, setActiveSection] = useState<SkillType>("frontend");
+  const filteredSkills = skills.filter(
+    (skill) => skill.techType === activeSection,
+  );
+
   return (
     <section id="skills" className="mb-5">
       <SectionTitle>
@@ -12,13 +18,30 @@ const MySkillsSection = () => {
       </SectionTitle>
       <nav className="mt-5">
         <ul className="flex justify-center gap-3 font-bold text-grayButton">
-          <li className="text-accent">Front End</li>
-          <li>Back End</li>
-          <li>Other</li>
+          <li
+            className={`transition-colors duration-500 cursor-pointer ${activeSection == "frontend" ? "text-accent" : ""}`}
+            onClick={() => setActiveSection("frontend")}
+          >
+            Front End
+          </li>
+          <li
+            className={`transition-colors duration-500 cursor-pointer ${activeSection == "backend" ? "text-accent" : ""}`}
+            onClick={() => setActiveSection("backend")}
+          >
+            Back End
+          </li>
+          <li
+            className={`transition-colors duration-500 cursor-pointer ${activeSection == "other" ? "text-accent" : ""}`}
+            onClick={() => setActiveSection("other")}
+          >
+            Other
+          </li>
         </ul>
       </nav>
-      <div>
-        <SkillCard skill={skills[0]}/>
+      <div className="flex-wrap justify-center gap-4 mt-10 flex">
+        {filteredSkills.map((skill) => (
+          <SkillCard key={skill.name} skill={skill} />
+        ))}
       </div>
     </section>
   );

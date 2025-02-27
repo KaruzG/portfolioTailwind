@@ -2,9 +2,11 @@ export interface Skill {
   name: string;
   skillColor: string | null;
   textColor: string | null;
-  techType: "frontend" | "backend" | "other";
+  techType: SkillType;
   logo: string;
 }
+
+export type SkillType = "frontend" | "backend" | "other";
 
 export const skills: Skill[] = [
   {
