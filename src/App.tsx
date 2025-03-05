@@ -1,6 +1,3 @@
-/* import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg' */
 import ContactButton from "./components/ContactButton";
 import ExperienceSection from "./components/ExperienceSection";
 import LandingSection from "./components/LandingSection";
