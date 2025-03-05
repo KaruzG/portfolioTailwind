@@ -23,7 +23,7 @@ export const projects: Project[] = [
     name: "KARUZFILM",
     img: "/assets/projects/karuzfilm.png",
     description: "Photography portfolio",
-    techStack: [skills[0],skills[2],skills[6],],
+    techStack: [skills[15]],
     github: null,
     website: "https://karuzfilm.webflow.io/",
   },
