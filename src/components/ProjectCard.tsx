@@ -29,7 +29,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
       <div className="flex">
         {!project.website ? null : (
           <button
-            className="flex justify-center gap-2 bg-grayButton mr-3 rounded-lg p-6 text-xl font-semibold shadow-lg"
+            className="flex justify-center gap-2 bg-grayButton mr-3 rounded-lg p-6 text-xl font-semibold shadow-lg hover:bg-grayButtonHover transition-colors"
             onClick={() => project.website && window.open(project.website, "_blank")}
           >
             <TbWorld className="my-auto" size={26}/>
@@ -38,7 +38,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
         )}
         {!project.github ? null : (
           <button
-            className="flex justify-center gap-2 bg-grayButton mr-3 rounded-lg p-6 text-xl font-semibold shadow-lg"
+            className="flex justify-center gap-2 bg-grayButton mr-3 rounded-lg p-6 text-xl font-semibold shadow-lg hover:bg-grayButtonHover transition-colors"
             onClick={() => project.github && window.open(project.github, "_blank")}
           >
             <IoLogoGithub className="my-auto" size={26}/>
