@@ -114,4 +114,19 @@ export const skills: Skill[] = [
     techType: "backend",
     logo: "https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png",
   },
+  {
+    name: "Webflow",
+    skillColor: "#4353FF",
+    textColor: "#FFFFFF",
+    techType: "other",
+    logo: "https://cdn.prod.website-files.com/5f15081919fdf673994ab5fd/651f24a499bc8356ba844e0c_Webflow-Logo.svg",
+  },
+  {
+    name: "WordPress",
+    skillColor: "#21759B",
+    textColor: "#FFFFFF",
+    techType: "other",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/9/98/WordPress_blue_logo.svg",
+  }
+
 ];
