@@ -1,14 +1,10 @@
-export interface StackItem {
-  icon: string;
-  tech: string;
-  color: string;
-}
+import { Skill } from "./Skill";
 
 export interface Project {
-  title: string;
-  description: string;
+  name: string;
   img: string;
-  previewLink: string;
-  codeLink: string;
-  stack: StackItem[];
+  description: string;
+  techStack: Skill[];
+  github: string | null;
+  website: string | null;
 }

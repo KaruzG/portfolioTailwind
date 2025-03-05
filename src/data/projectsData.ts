@@ -1,14 +1,5 @@
-import { Skill, skills } from "./skillsData";
-
-export interface Project {
-  name: string;
-  img: string;
-  description: string;
-  techStack: Skill[];
-  github: string | null;
-  website: string | null;
-}
-
+import { Project } from "../types/Project";
+import { skills } from "./skillsData";
 
 export const projects: Project[] = [
   {
