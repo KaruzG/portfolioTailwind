@@ -50,8 +50,8 @@ const NavBar = () => {
     "flex cursor-pointer flex-col items-center transition-colors duration-500";
 
   return (
-    <nav className="fixed max-w-fit bottom-5 left-0 right-0 z-50 mx-auto flex justify-center gap-4 rounded-full bg-navBarBg p-4 backdrop-blur-sm">
-      <ul className="flex gap-4 text-xs text-secondary">
+    <nav className="fixed max-w-fit bottom-5 left-0 right-0 z-50 mx-auto flex justify-center gap-4 rounded-full bg-navBarBg p-4 backdrop-blur-sm md:top-6 md:bottom-auto">
+      <ul className="flex gap-4 text-xs text-secondary md:text-sm">
         <li
           className={`${liStyles} ${activeSection === "landing" ? "text-accent" : ""}`}
           onClick={() => scrollToSection("landing")}

@@ -4,7 +4,7 @@ import { IoLogoGithub } from "react-icons/io5";
 
 const ProjectCard = ({ project }: { project: Project }) => {
   return (
-    <div className="rounded-2xl bg-primary p-3">
+    <div className="rounded-2xl bg-primary p-3 md:max-w-xl md:mx-auto">
       <img
         className="mb-3 rounded-t-lg"
         src={project.img}

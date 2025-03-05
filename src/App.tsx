@@ -9,13 +9,15 @@ import StudiesSection from "./components/StudiesSection";
 function App() {
   return (
     <div className="flex min-h-screen flex-col gap-4 bg-gradient-to-br from-primary to-black p-5 text-white pb-24">
-      <NavBar/>
-      <LandingSection />
-      <ProjectsSection />
-      <MySkillsSection />
-      <ExperienceSection />
-      <StudiesSection />
-      <ContactButton />
+      <div className="max-w-screen-md m-auto">
+        <NavBar/>
+        <LandingSection />
+        <ProjectsSection />
+        <MySkillsSection />
+        <ExperienceSection />
+        <StudiesSection />
+        <ContactButton />
+      </div>
     </div>
   );
 }

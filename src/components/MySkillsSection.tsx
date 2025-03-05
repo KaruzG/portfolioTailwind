@@ -39,7 +39,7 @@ const MySkillsSection = () => {
           </li>
         </ul>
       </nav>
-      <div className="flex-wrap justify-center gap-4 mt-10 flex">
+      <div className="flex-wrap justify-center gap-4 mt-10 flex md:max-w-md md:mx-auto">
         {filteredSkills.map((skill) => (
           <SkillCard key={skill.name} skill={skill} />
         ))}
