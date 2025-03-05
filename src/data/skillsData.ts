@@ -35,14 +35,14 @@ export const skills: Skill[] = [
     skillColor: "#E34F26",
     textColor: "#FFFFFF",
     techType: "frontend",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
+    logo: "https://icons.iconarchive.com/icons/cornmanthe3rd/plex/256/Other-html-5-icon.png",
   },
   {
     name: "CSS",
     skillColor: "#1572B6",
     textColor: "#FFFFFF",
     techType: "frontend",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Official_CSS_Logo.svg/2048px-Official_CSS_Logo.svg.png",
   },
   {
     name: "Tailwind CSS",
@@ -56,7 +56,7 @@ export const skills: Skill[] = [
     skillColor: "#339933",
     textColor: "#FFFFFF",
     techType: "backend",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg",
+    logo: "https://cdn.iconscout.com/icon/free/png-256/free-node-js-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-5-pack-logos-icons-3030179.png?f=webp&w=256",
   },
   {
     name: "PHP",
@@ -77,7 +77,7 @@ export const skills: Skill[] = [
     skillColor: "#47A248",
     textColor: "#FFFFFF",
     techType: "backend",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg",
+    logo: "https://static-00.iconduck.com/assets.00/mongodb-original-icon-921x2048-hvrb89lu.png",
   },
   {
     name: "AWS",
@@ -91,7 +91,7 @@ export const skills: Skill[] = [
     skillColor: "#000000",
     textColor: "#FFFFFF",
     techType: "other",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/e/e1/Vercel_logo.svg",
+    logo: "https://pipedream.com/s.v0/app_XaLh2x/logo/orig",
   },
   {
     name: "Git",

@@ -5,9 +5,9 @@ interface SkillCardProps {
 }
 
 const SkillCard = ({ skill }: SkillCardProps) => {
-  return ( // Molaría hacer un effecto como frost con el accent color de la skill
-    <div className="h-[100px] w-[100px] rounded-3xl bg-grayButton flex justify-center items-center flex-col">
-      <img className="w-12" src={skill.logo} alt={skill.name + " logo."} />
+  return (
+    <div className="h-[100px] w-[100px] rounded-3xl bg-grayButton flex justify-between pb-1 items-center flex-col text-center">
+      <img className="w-12 max-h-12 m-auto object-contain" src={skill.logo} alt={skill.name + " logo."} />
       <h3>{skill.name}</h3>
     </div>
   );
