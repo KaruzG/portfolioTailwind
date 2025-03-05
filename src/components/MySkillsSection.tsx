@@ -12,7 +12,7 @@ const MySkillsSection = () => {
   );
 
   return (
-    <section id="skills" className="mb-5">
+    <section id="skills" className="mb-16">
       <SectionTitle>
         <FaRegStar className="my-auto mr-3" />
         MY SKILLS
