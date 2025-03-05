@@ -1,8 +1,8 @@
 export interface Skill {
     id: number;
     name: string;
-    skillColor: string | null;
-    textColor: string | null;
+    skillColor: string;
+    textColor: string;
     techType: SkillType;
     logo: string;
   }

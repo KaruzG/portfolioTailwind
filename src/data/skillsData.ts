@@ -4,7 +4,7 @@ export const skills: Skill[] = [
   {
     id: 0,
     name: "React",
-    skillColor: "#61DAFB",
+    skillColor: "#46b5d4",
     textColor: "#000000",
     techType: "frontend",
     logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
@@ -20,7 +20,7 @@ export const skills: Skill[] = [
   {
     id: 2,
     name: "TypeScript",
-    skillColor: "#3178C6",
+    skillColor: "#1a5ba3",
     textColor: "#FFFFFF",
     techType: "frontend",
     logo: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
@@ -68,7 +68,7 @@ export const skills: Skill[] = [
   {
     id: 8,
     name: "SASS",
-    skillColor: "#CC6699",
+    skillColor: "#963e6a",
     textColor: "#FFFFFF",
     techType: "frontend",
     logo: "https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg",
@@ -84,7 +84,7 @@ export const skills: Skill[] = [
   {
     id: 10,
     name: "AWS",
-    skillColor: "#FF9900",
+    skillColor: "#c97900",
     textColor: "#000000",
     techType: "other",
     logo: "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",

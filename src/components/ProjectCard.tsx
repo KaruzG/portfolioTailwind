@@ -8,37 +8,43 @@ const ProjectCard = ({ project }: { project: Project }) => {
       <img
         className="mb-3 rounded-t-lg"
         src={project.img}
-        alt={`${project.title} Image`}
+        alt={`${project.name} Image`}
       />
-      <ul className="flex items-center gap-2 mb-1">
-        {project.stack.map((item, index) => (
+      <ul className="inline-flex flex-wrap items-center gap-2 mb-1">
+        {project.techStack.map((tech) => (
           <li
-            key={index}
-            className="flex items-center rounded-full bg-blue-800 p-1 px-2"
+            key={tech.id}
+            className="flex items-center rounded-full p-1 px-2"
+            style={{ backgroundColor: tech.skillColor }}
           >
-            <span className="mr-2" style={{ color: item.color }}>
-              {item.icon}
+            <span className="mr-2">
+              <img className="max-w-5 h-5 drop-shadow" src={tech.logo} alt={tech.name} />
             </span>
-            {item.tech}
+            {tech.name}
           </li>
         ))}
       </ul>
-      <h3 className="text-2xl font-bold">{project.title}</h3>
+      <h3 className="text-2xl font-bold">{project.name}</h3>
       <p className="mb-3 text-lg text-secondary">{project.description}</p>
       <div className="flex">
-        <button
-          className="flex justify-center gap-2 bg-grayButton mr-3 rounded-lg p-6 text-xl font-semibold shadow-lg"
-          onClick={() => window.open(project.previewLink, "_blank")}
-        >
-          <TbWorld className="my-auto" size={26}/>
-          Preview
-        </button>
-        <button 
-        className="flex justify-center gap-2 bg-grayButton mr-3 rounded-lg p-6 text-xl font-semibold shadow-lg"
-        onClick={() => window.open(project.codeLink, "_blank")}>
-          <IoLogoGithub className="my-auto" size={26}/>
-          Code
-        </button>
+        {!project.website ? null : (
+          <button
+            className="flex justify-center gap-2 bg-grayButton mr-3 rounded-lg p-6 text-xl font-semibold shadow-lg"
+            onClick={() => window.open(project.website, "_blank")}
+          >
+            <TbWorld className="my-auto" size={26}/>
+            Preview
+          </button>
+        )}
+        {!project.github ? null : (
+          <button
+            className="flex justify-center gap-2 bg-grayButton mr-3 rounded-lg p-6 text-xl font-semibold shadow-lg"
+            onClick={() => window.open(project.github, "_blank")}
+          >
+            <IoLogoGithub className="my-auto" size={26}/>
+            Code
+          </button>
+        )}
       </div>
     </div>
   );

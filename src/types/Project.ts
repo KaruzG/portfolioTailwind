@@ -5,6 +5,6 @@ export interface Project {
   img: string;
   description: string;
   techStack: Skill[];
-  github: string | null;
-  website: string | null;
+  github?: string | null;
+  website?: string | null;
 }
