@@ -1,7 +1,8 @@
 import SectionTitle from "./SectionTitle";
 import { FaRegStar } from "react-icons/fa";
 import SkillCard from "./SkillCard";
-import { skills, SkillType } from "../data/skillsData";
+import { SkillType } from "../types/Skill";
+import { skills } from "../data/skillsData";
 import { useState } from "react";
 
 const MySkillsSection = () => {
