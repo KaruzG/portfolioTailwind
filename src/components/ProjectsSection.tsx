@@ -7,9 +7,8 @@ const ProjectsSection = () => {
   return (
     <section
       id="projects"
-      className="relative left-1/2 mb-16 w-screen -translate-x-1/2"
+      className="md:relative md:left-1/2 mb-16 md:w-screen md:-translate-x-1/2 md:px-5"
     >
-      {" "}
       {/* Little hack to break the max-w of app component */}
       <SectionTitle>
         <FaRegFolder className="my-auto mr-3" />
