@@ -5,7 +5,11 @@ interface SectionTitleProps {
 }
 
 const SectionTitle = ({ children }: SectionTitleProps) => {
-  return <h2 className="flex text-2xl font-bold">{children}</h2>;
+  return (
+    <h2 className="m-auto flex max-w-screen-md text-2xl font-bold">
+      {children}
+    </h2>
+  );
 };
 
 export default SectionTitle;
