@@ -2,6 +2,8 @@ import { Project } from "../types/Project";
 import { skills } from "./skillsData";
 import skateSpotsVLC from "../assets/projects/skatespotsvlc.jpeg";
 import karuzFilm from "../assets/projects/karuzfilm.png";
+import qrcrypt from "../assets/projects/qrcrypt.png";
+import puzzleGame from "../assets/projects/puzzleGame.png";
 
 export const projects: Project[] = [
   {
@@ -13,11 +15,27 @@ export const projects: Project[] = [
     website: "https://skatespotsvlc.vercel.app/",
   },
   {
+    name: "QRCRYPT",
+    img: qrcrypt,
+    description: "TypeScript library to generate encrypted QRs with AES-GCM encryption, Salt and initialization vectors.",
+    techStack: [skills[2],skills[6]],
+    github: "https://github.com/KaruzG/qrcrypt",
+    website: "https://www.npmjs.com/package/qrcrypt",
+  },
+  {
     name: "KARUZFILM",
     img: karuzFilm,
-    description: "Photography portfolio",
+    description: "Photography portfolio made with lowcode tools, showcasing works in film and photography.",
     techStack: [skills[15]],
     github: null,
     website: "https://karuzfilm.webflow.io/",
+  },
+  {
+    name: "15 PUZZLE GAME",
+    img: puzzleGame,
+    description: "Vanilla JavaScript game where you can play the classic 15 puzzle game.",
+    techStack: [skills[1], skills[3], skills[4]],
+    github: "https://github.com/KaruzG/15-Puzzle-Game-JS",
+    website: "https://karuzg.github.io/15-Puzzle-Game-JS/",
   },
 ];
