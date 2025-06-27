@@ -12,7 +12,7 @@ export const skills: Skill[] = [
   {
     id: 1,
     name: "JavaScript",
-    skillColor: "#F7DF1E",
+    skillColor: "#d1aa4d",
     textColor: "#000000",
     techType: "frontend",
     logo: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
@@ -36,7 +36,7 @@ export const skills: Skill[] = [
   {
     id: 4,
     name: "CSS",
-    skillColor: "#1572B6",
+    skillColor: "#871db5",
     textColor: "#FFFFFF",
     techType: "frontend",
     logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Official_CSS_Logo.svg/2048px-Official_CSS_Logo.svg.png",
@@ -79,7 +79,7 @@ export const skills: Skill[] = [
     skillColor: "#47A248",
     textColor: "#FFFFFF",
     techType: "backend",
-    logo: "https://static-00.iconduck.com/assets.00/mongodb-original-icon-921x2048-hvrb89lu.png",
+    logo: "https://images.icon-icons.com/2415/PNG/512/mongodb_original_logo_icon_146424.png",
   },
   {
     id: 10,
