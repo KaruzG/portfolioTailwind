@@ -4,7 +4,7 @@ import { IoLogoGithub } from "react-icons/io5";
 
 const ProjectCard = ({ project }: { project: Project }) => {
   return (
-    <div className="flex h-full flex-col rounded-2xl bg-primary p-3 md:mx-auto md:max-w-xl">
+    <div className="flex h-full flex-col rounded-2xl bg-primary p-3 md:mx-auto md:max-w-md">
       <img
         className="mb-3 h-72 w-full rounded-t-lg object-cover md:rounded-lg"
         src={project.img}
@@ -28,9 +28,11 @@ const ProjectCard = ({ project }: { project: Project }) => {
           </li>
         ))}
       </ul>
-      <h3 className="text-2xl font-bold">{project.name}</h3>
-      <p className="mb-3 text-lg text-secondary">{project.description}</p>
-      <div className="mt-auto flex">
+      <div className="my-auto">
+        <h3 className="text-2xl font-bold mt-">{project.name}</h3>
+        <p className="mb-3 text-lg text-secondary">{project.description}</p>
+      </div>
+      <div className="flex">
         {!project.website ? null : (
           <button
             className="mr-3 flex justify-center gap-2 rounded-lg bg-grayButton p-6 text-xl font-semibold shadow-lg transition-colors hover:bg-grayButtonHover"
