@@ -55,8 +55,8 @@ const MySkillsSection = () => {
           ref={contentRef}
           className="mt-10 flex flex-wrap justify-center gap-4"
         >
-          {filteredSkills.map((skill) => (
-            <SkillCard key={skill.name} skill={skill} />
+          {filteredSkills.map((skill, index) => (
+            <SkillCard key={skill.name} skill={skill} delay={index * 0.05} />
           ))}
         </div>
       </div>
