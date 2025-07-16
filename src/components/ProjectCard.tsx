@@ -1,10 +1,23 @@
 import { Project } from "../types/Project";
 import { TbWorld } from "react-icons/tb";
 import { IoLogoGithub } from "react-icons/io5";
+import { motion, Variants } from "motion/react";
 
 const ProjectCard = ({ project }: { project: Project }) => {
+  const animationProps: Variants = {
+      whileInView: { opacity: 100, rotate: 0, y: 0 },
+      initial: {         
+        y: 150,
+        transition: {
+            type: "spring",
+            bounce: 0.1,
+            duration: 1.2,
+        }
+    }
+  };
+
   return (
-    <div className="flex h-full flex-col rounded-2xl bg-primary p-3 md:mx-auto md:max-w-md">
+    <motion.div viewport={{ once: true }} {...animationProps} className="flex h-full flex-col rounded-2xl bg-primary p-3 md:mx-auto md:max-w-md">
       <img
         className="mb-3 h-72 w-full rounded-t-lg object-cover md:rounded-lg"
         src={project.img}
@@ -56,7 +69,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
           </button>
         )}
       </div>
-    </div>
+    </motion.div>
   );
 };
 
