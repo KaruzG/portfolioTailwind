@@ -19,6 +19,8 @@ const MySkillsSection = () => {
     }
   }, [activeSection, filteredSkills.length]);
 
+  const navLiStyles =
+    "cursor-pointer transition-colors duration-500 hover:text-accent300";
   return (
     <section id="skills" className="mb-16">
       <SectionTitle>
@@ -28,19 +30,19 @@ const MySkillsSection = () => {
       <nav className="mt-5">
         <ul className="flex justify-center gap-3 font-bold text-grayButton">
           <li
-            className={`cursor-pointer transition-colors duration-500 ${activeSection == "frontend" ? "text-accent" : ""}`}
+            className={`${navLiStyles} ${activeSection == "frontend" ? "text-accent" : ""}`}
             onClick={() => setActiveSection("frontend")}
           >
             Front End
           </li>
           <li
-            className={`cursor-pointer transition-colors duration-500 ${activeSection == "backend" ? "text-accent" : ""}`}
+            className={`${navLiStyles} ${activeSection == "backend" ? "text-accent" : ""}`}
             onClick={() => setActiveSection("backend")}
           >
             Back End
           </li>
           <li
-            className={`cursor-pointer transition-colors duration-500 ${activeSection == "other" ? "text-accent" : ""}`}
+            className={`${navLiStyles} ${activeSection == "other" ? "text-accent" : ""}`}
             onClick={() => setActiveSection("other")}
           >
             Other
@@ -48,7 +50,7 @@ const MySkillsSection = () => {
         </ul>
       </nav>
       <div
-        className="md:max-w-md mx-auto relative overflow-visible transition-all duration-500"
+        className="relative mx-auto overflow-visible transition-all duration-500 md:max-w-md"
         style={{ height: height ? `${height}px` : "auto" }}
       >
         <div
