@@ -10,12 +10,12 @@ export const skills: Skill[] = [
     logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
   },
   {
-    id: 1,
-    name: "JavaScript",
-    skillColor: "#d1aa4d",
-    textColor: "#000000",
+    id: 18,
+    name: "Next.js",
+    skillColor: "#000000",
+    textColor: "#FFFFFF",
     techType: "frontend",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+    logo: "https://logo.svgcdn.com/d/nextjs-original-8x.png",
   },
   {
     id: 2,
@@ -24,6 +24,14 @@ export const skills: Skill[] = [
     textColor: "#FFFFFF",
     techType: "frontend",
     logo: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
+  },
+  {
+    id: 1,
+    name: "JavaScript",
+    skillColor: "#d1aa4d",
+    textColor: "#000000",
+    techType: "frontend",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
   },
   {
     id: 3,
@@ -136,6 +144,22 @@ export const skills: Skill[] = [
     textColor: "#FFFFFF",
     techType: "other",
     logo: "https://upload.wikimedia.org/wikipedia/commons/9/98/WordPress_blue_logo.svg",
+  },
+  {
+    id: 17,
+    name: "Figma",
+    skillColor: "#F24E1E",
+    textColor: "#FFFFFF",
+    techType: "other",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
+  },
+  {
+    id: 19,
+    name: "jest",
+    skillColor: "#C21325",
+    textColor: "#FFFFFF",
+    techType: "other",
+    logo: "https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/4/jest-5dztkgv3b0qk69pamrz0qo.png/jest-l714e6nhi3c4hhvwvoo17.png?_a=DATAdtAAZAA0",
   }
 
 ];
