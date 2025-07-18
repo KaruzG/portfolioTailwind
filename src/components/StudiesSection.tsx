@@ -9,7 +9,7 @@ const studyExperience: Array<TimelineData> = [
     location: null,
     duration: 2,
     durationType: "years",
-    descriptionList: ["FullStack development", "AWS Deployment", "UIX design"],
+    descriptionList: ["<b>FullStack development</b>", "AWS Deployment", "<b>UIX</b> design"],
   },
   {
     company: "Micro-computing Systems and Networks",
@@ -18,9 +18,9 @@ const studyExperience: Array<TimelineData> = [
     durationType: "years",
     descriptionList: [
       "TCP IP Networks",
-      "Windows/Linux administration",
+      "<b>Windows/Linux</b> administration",
       "Cybersecurity",
-      "Frontend basics",
+      "<b>Frontend basics</b>",
     ],
   },
 ];
