@@ -18,7 +18,7 @@ const Timeline = ({ timelineData, type }: TimelineProps) => {
       <ul className="mb-10 list-inside list-disc text-secondary">
         {data.descriptionList.map((item, index) => (
           <li key={index} className="">
-            <span className="">{item}</span>
+            <span dangerouslySetInnerHTML={{ __html: item }}></span>
           </li>
         ))}
       </ul>
