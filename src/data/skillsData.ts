@@ -160,6 +160,13 @@ export const skills: Skill[] = [
     textColor: "#FFFFFF",
     techType: "other",
     logo: "https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/4/jest-5dztkgv3b0qk69pamrz0qo.png/jest-l714e6nhi3c4hhvwvoo17.png?_a=DATAdtAAZAA0",
+  }, 
+  {
+    id: 20,
+    name: "i18next",
+    skillColor: "#009688",
+    textColor: "#FFFFFF",
+    techType: "frontend",
+    logo: "https://avatars.githubusercontent.com/u/8546082?s=280&v=4",
   }
-
 ];
