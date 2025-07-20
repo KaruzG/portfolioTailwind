@@ -16,4 +16,5 @@ Libraries:
 - [react-icons](https://react-icons.github.io/react-icons/)
 
 ## Images! 💯
-![miguel-gresa vercel app_](https://github.com/user-attachments/assets/020999f5-bd19-4d1d-8264-8187d4624135)
+<img width="1920" height="1920" alt="598shots_so" src="https://github.com/user-attachments/assets/9913392a-dad7-43ad-ba0e-0522aba39d4a" />
+<img width="500" height="1920" alt="84shots_so" src="https://github.com/user-attachments/assets/bbe2c607-4c2a-4c5a-a840-9012a350a67a" />
