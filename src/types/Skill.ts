@@ -1,3 +1,7 @@
+export interface SkillCardProps {
+  skill: Skill;
+  delay?: number;
+}
 export interface Skill {
     id: number;
     name: string;

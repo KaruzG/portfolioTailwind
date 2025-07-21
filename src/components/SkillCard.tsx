@@ -1,10 +1,5 @@
-import { Skill } from "../types/Skill";
+import { SkillCardProps } from "../types/Skill";
 import { motion, Transition, Variants } from 'motion/react';
-
-interface SkillCardProps {
-  skill: Skill;
-  delay?: number;
-}
 
 const SkillCard = ({ skill, delay }: SkillCardProps) => {
   const styles = "h-[100px] w-[100px] rounded-3xl bg-grayButton flex justify-between pb-1 items-center flex-col text-center"
