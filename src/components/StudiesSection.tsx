@@ -1,29 +1,8 @@
-import { TimelineData } from "../types/TimelineData";
 import SectionTitle from "./SectionTitle";
 import { IoMdBook } from "react-icons/io";
 import Timeline from "./Timeline";
+import { studyExperience } from "../data/studiesExperience";
 
-const studyExperience: Array<TimelineData> = [
-  {
-    company: "Web App Development",
-    location: null,
-    duration: 2,
-    durationType: "years",
-    descriptionList: ["<b>FullStack development</b>", "AWS Deployment", "<b>UIX</b> design"],
-  },
-  {
-    company: "Micro-computing Systems and Networks",
-    location: null,
-    duration: 2,
-    durationType: "years",
-    descriptionList: [
-      "TCP IP Networks",
-      "<b>Windows/Linux</b> administration",
-      "Cybersecurity",
-      "<b>Frontend basics</b>",
-    ],
-  },
-];
 
 const StudiesSection = () => {
   return (
