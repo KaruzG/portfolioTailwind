@@ -9,7 +9,7 @@ const ProjectsSection = () => {
       id="projects"
       className="mb-16 md:relative md:left-1/2 md:w-screen md:-translate-x-1/2 md:px-5"
     >
-      {/* Little hack to break the max-w of app component */}
+      {/* Little hack to break the max-w of app component, its breaking width on +md */}
       <SectionTitle>
         <FaRegFolder className="my-auto mr-3" />
         PROJECTS
