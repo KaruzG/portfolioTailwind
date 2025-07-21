@@ -5,5 +5,5 @@ export interface NavLiProps {
 export interface navSectionType {
     name: string;
     section: string;
-    icon: JSX.Element | React.ComponentType;
+    icon: JSX.Element;
 }

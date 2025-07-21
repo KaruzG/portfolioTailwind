@@ -1,15 +1,6 @@
 import { useActiveSection } from "../hooks/useActiveSection";
 import { scrollToSection } from "../hooks/useScrollToSection";
-
-interface NavLiProps {
-    navSection: navSectionType;
-}
-
-interface navSectionType {
-    name: string;
-    section: string;
-    icon: JSX.Element;
-}
+import { NavLiProps } from "../types/NavLi";
 
 const NavLi = ({ navSection }: NavLiProps) => {
     const liStyles = "flex cursor-pointer flex-col items-center transition-colors duration-500";
