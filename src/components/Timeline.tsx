@@ -1,9 +1,4 @@
-import { TimelineData } from "../types/TimelineData";
-
-interface TimelineProps {
-  timelineData: TimelineData[];
-  type: "job" | "education";
-}
+import { TimelineProps } from "../types/TimelineData";
 
 const Timeline = ({ timelineData, type }: TimelineProps) => {
   return timelineData.map((data, index) => (
