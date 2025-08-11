@@ -1,5 +1,5 @@
 import { useActiveSection } from "../hooks/useActiveSection";
-import { scrollToSection } from "../hooks/useScrollToSection";
+import { scrollToSection } from "../utils/scrollToSection";
 import { NavLiProps } from "../types/NavLi";
 
 const NavLi = ({ navSection }: NavLiProps) => {
